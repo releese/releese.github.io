@@ -1,32 +1,38 @@
-html,body {
-  font-family: 'Open Sans', serif;
+html, body {
+    font-family: 'Open Sans', serif;
 }
+
 .hero.is-info {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
     ), url('https://unsplash.it/1200/900?random') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
 .hero .nav, .hero.is-success .nav {
-  -webkit-box-shadow: none;
-  box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
+
 .hero .subtitle {
-  padding: 3rem 0;
-  line-height: 1.5;
+    padding: 3rem 0;
+    line-height: 1.5;
 }
+
 .articles {
-  margin: 5rem 0;
-  margin-top: -200px;
+    margin: 5rem 0;
+    margin-top: -200px;
 }
+
 .articles .content p {
     line-height: 1.9;
     margin: 15px 0;
 }
+
 .author-image {
     position: absolute;
     top: -30px;
@@ -37,31 +43,39 @@ html,body {
     border: 3px solid #ccc;
     border-radius: 50%;
 }
+
 .media-center {
-  display: block;
-  margin-bottom: 1rem;
+    display: block;
+    margin-bottom: 1rem;
 }
+
 .media-content {
 }
+
 .article, .promo-block {
-  margin-top: 6rem;
+    margin-top: 6rem;
 }
+
 div.column.is-8:first-child {
-  padding-top: 0;
-  margin-top: 0;
+    padding-top: 0;
+    margin-top: 0;
 }
+
 .article-title {
-  font-size: 2rem;
-  font-weight: lighter;
-  line-height: 2;
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 2;
 }
+
 .article-subtitle {
-  color: #909AA0;
-  margin-bottom: 3rem;
+    color: #909AA0;
+    margin-bottom: 3rem;
 }
+
 .article-body {
-  line-height: 1.4;
+    line-height: 1.4;
 }
+
 .promo-block .container {
-  margin: 1rem 5rem;
+    margin: 1rem 5rem;
 }
