@@ -9,4 +9,9 @@ function sendWish() {
     setTimeout(function () {
         document.getElementById('thank_you_message').classList.remove('visible');
     }, 2500);
+    setTimeout(function () {
+        document.getElementById("new_messages").style.visibility = 'visible';
+        document.getElementById("new_messages").innerText = "2";
+
+    }, 6500);
 }
